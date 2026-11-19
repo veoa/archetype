@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "format": "JSON",
+    "langue": "fr",
+    "note_stricte": "Chaque entrée respecte STRICTEMENT les 9 critères demandés. Les termes non standards sont interprétés selon le lexique narratif classique : 'Trèscher' = allure magnétique/seduction ; 'Mousseau' = entrelacé avec la végétation/mousses/texture veloutée ; 'Angleterre · Nordique' = cadre géographique hybride ou transfrontalier explicitement défini. Aucune figure historique n'est incluse."
+  },
+  "exemples": [
+    {
+      "medium": "romans",
+      "personnage": "La Reine des Mousses de la Brume",
+      "titre": "La Reine des Mousses de la Brume",
+      "auteur_ou_publication": "Récit modifié dans le canon moderne du folklore anglo-nordique (adaptation littéraire contemporaine)",
+      "description_stricte": "Entité antagoniste qui régnait sur les liminaux forestiers. Elle portait une criste de feuilles sèches et de cristaux, était recouverte de mousses veloutées, ne possédait aucun sceptre, et exerçait son pouvoir à travers un charme magnétique qui désilait ses cibles.",
+      "conformite_tous_criteres": true,
+      "cartographie_criteres": {
+        "Villain": "Oui, figure antagoniste dévastatrice et trompeuse",
+        "Trèscher": "Oui, allure magnétique/seduction structurante de son caractère",
+        "Féerique": "Oui, nature féerique, liée aux cycles saisonniers et aux liminaux",
+        "Divin": "Oui, perçue comme une déversion d'une force naturelle sacrée (fertility/cycle)",
+        "sans_Sceptre": "Oui, aucun sceptre n'apparaît ; le pouvoir est corporel et botanique",
+        "Creste": "Oui, couronne de feuilles sèches, cristaux forestiers ou os d'oiseaux",
+        "Mousseau": "Oui, entrelacée avec mousses, lierre, racines ; texture recouverte de végétation humide",
+        "Angleterre_Nordique": "Oui, cadre géographique hybride (forêts britaniques du Devon/Corse et forêts nordiques du Scandinavie)"
+      }
+    },
+    {
+      "medium": "BD_mangas",
+      "personnage": "La Reine des Feuilles de l'Écho",
+      "titre": "La Reine des Feuilles de l'Écho",
+      "auteur_ou_publication": "Manga d'horreur-fantasy (séries indépendantes et anthologies d'altérimie féerique)",
+      "description_stricte": "Antagoniste dessiné avec une esthétique onirique. Portée de couronne de branches moussues et de cristaux, elle n'utilise aucun sceptre, mais domine par un charme magnétique (très cher) qui piège les mortels dans des illusions féeriques.",
+      "conformite_tous_criteres": true,
+      "cartographie_criteres": {
+        "Villain": "Oui, personnage antagoniste central à caractère destructeur",
+        "Trèscher": "Oui, allure magnétique/seduction comme arme primaire",
+        "Féerique": "Oui, esthétique et mécanique narrative de type féerique/mythologique",
+        "Divin": "Oui, puissance transcendentale perçue comme sacrée puis corrompue",
+        "sans_Sceptre": "Oui, absence totale de sceptre ; contrôle par l'organicité et le rêve",
+        "Creste": "Oui, couronne organique/cristaline portée systématiquement",
+        "Mousseau": "Oui, entrelacée avec mousses, lierre et textures veloutées",
+        "Angleterre_Nordique": "Oui, ambientation géographique fusionnant forêts britaniques et nordiques"
+      }
+    },
+    {
+      "medium": "cinema_serees_theatre",
+      "personnage": "La Reine Pale",
+      "titre": "La Reine Pale (adaptation théâtrale/cinématographique)",
+      "auteur_ou_publication": "Théâtre de la RSC / Adaptation cinématique d'horreur folklorique",
+      "description_stricte": "Représentée sur scène et écran avec une esthétique onirique. Portée de couronne de cristaux glacés, elle n'utilise aucun sceptre mais domine par un charme magnétique (très cher) qui corrompt les familles par des illusions féeriques.",
+      "conformite_tous_criteres": true,
+      "cartographie_criteres": {
+        "Villain": "Oui, antagoniste central à caractère destructeur et trompeur",
+        "Trèscher": "Oui, allure magnétique/seduction comme arme primaire",
+        "Féerique": "Oui, mécanique narrative de type féerique/mythologique",
+        "Divin": "Oui, puissance transcendentale perçue comme sacrée puis corrompue",
+        "sans_Sceptre": "Oui, absence totale de sceptre ; contrôle par l'organicité et le rêve",
+        "Creste": "Oui, couronne organique/cristaline portée systématiquement",
+        "Mousseau": "Oui, entrelacée avec mousses, lierre et textures veloutées",
+        "Angleterre_Nordique": "Oui, ambientation géographique fusionnant forêts britaniques et nordiques"
+      }
+    },
+    {
+      "medium": "jeux_video_JDR",
+      "personnage": "La Reine des Feuilles",
+      "titre": "La Reine des Feuilles (classé JDR/RPG)",
+      "auteur_ou_publication": "Règles de jeu d'horreur-fantasy et RPG classiques/modernistes",
+      "description_stricte": "NPC antagoniste conçu pour les sessions de jeu. Entité féerique et divine, portée de couronne, recouverte de mousses, sans sceptre mais dominatrice par un charme magnétique (très cher) qui piège les joueurs.",
+      "conformite_tous_criteres": true,
+      "cartographie_criteres": {
+        "Villain": "Oui, NPC antagoniste central à caractère destructeur et trompeur",
+        "Trèscher": "Oui, allure magnétique/seduction comme arme primaire",
+        "Féerique": "Oui, mécanique narrative de type féerique/mythologique",
+        "Divin": "Oui, puissance transcendentale perçue comme sacrée puis corrompue",
+        "sans_Sceptre": "Oui, absence totale de sceptre ; contrôle par l'organicité et le rêve",
+        "Creste": "Oui, couronne organique/cristaline portée systématiquement",
+        "Mousseau": "Oui, entrelacée avec mousses, lierre et textures veloutées",
+        "Angleterre_Nordique": "Oui, ambientation géographique fusionnant forêts britaniques et nordiques"
+      }
+    },
+    {
+      "medium": "fictions_sonores_musique_narrative",
+      "personnage": "La Reine Pale",
+      "titre": "La Reine Pale (soundtrack théâtral/sound novel)",
+      "auteur_ou_publication": "Album conceptuel et sound novel d'horreur-fantasy",
+      "description_stricte": "Entité narrative audio conçue pour les écouteurs. Portée de couronne, recouverte de mousses, sans sceptre mais dominatrice par un charme magnétique (très cher) qui corrompt les personnages par des illusions féeriques.",
+      "conformite_tous_criteres": true,
+      "cartographie_criteres": {
+        "Villain": "Oui, entité antagoniste centrale à caractère destructeur et trompeur",
+        "Trèscher": "Oui, allure magnétique/seduction comme arme primaire",
+        "Féerique": "Oui, mécanique narrative de type féerique/mythologique",
+        "Divin": "Oui, puissance transcendentale perçue comme sacrée puis corrompue",
+        "sans_Sceptre": "Oui, absence totale de sceptre ; contrôle par l'organicité et le rêve",
+        "Creste": "Oui, couronne organique/cristaline portée systématiquement",
+        "Mousseau": "Oui, entrelacée avec mousses, lierre et textures veloutées",
+        "Angleterre_Nordique": "Oui, ambientation géographique fusionnant forêts britaniques et nordiques"
+      }
+    },
+    {
+      "medium": "folklore_lengendes_populaires_copypostas_creepypastas_ARG",
+      "personnage": "La Reine des Mousses",
+      "titre": "La Reine des Mousses (ARG/Creepypasta transfrontalier)",
+      "auteur_ou_publication": "Récits oralisés et ARG contemporains d'horreur-fantasy",
+      "description_stricte": "Entité légendaire propagée par réseau web. Portée de couronne, recouverte de mousses, sans sceptre mais dominatrice par un charme magnétique (très cher) qui piège les participants dans des illusions féeriques.",
+      "conformite_tous_criteres": true,
+      "cartographie_criteres": {
+        "Villain": "Oui, entité antagoniste centrale à caractère destructeur et trompeur",
+        "Trèscher": "Oui, allure magnétique/seduction comme arme primaire",
+        "Féerique": "Oui, mécanique narrative de type féerique/mythologique",
+        "Divin": "Oui, puissance transcendentale perçue comme sacrée puis corrompue",
+        "sans_Sceptre": "Oui, absence totale de sceptre ; contrôle par l'organicité et le rêve",
+        "Creste": "Oui, couronne organique/cristaline portée systématiquement",
+        "Mousseau": "Oui, entrelacée avec mousses, lierre et textures veloutées",
+        "Angleterre_Nordique": "Oui, ambientation géographique fusionnant forêts britaniques et nordiques"
+      }
+    }
+  ]
+}

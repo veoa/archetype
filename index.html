@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archétype</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/demo-data.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#mainContent">Aller au contenu</a>
+    <div class="app" id="app">
+      <aside class="sidebar" aria-label="Navigation principale">
+        <h2>/catégories</h2>
+        <nav class="category-container" id="categoryContainer" aria-label="Catégories"></nav>
+        <div class="brand">
+          <button id="aboutBtn" type="button" aria-controls="aboutView" aria-expanded="false">[ i ] À propos</button>
+          <h1><button id="homeBtn" type="button">Archétype</button></h1>
+        </div>
+      </aside>
+      <section class="trait-panel" id="traitPanel" aria-labelledby="traitTitle" hidden>
+        <h2 id="traitTitle"></h2>
+        <p class="instruction">Sélectionnez un maximum de 3 traits.</p>
+        <div class="trait-options" id="traitOptions"></div>
+        <p class="limit-message" id="limitMessage" role="status"></p>
+      </section>
+      <main id="mainContent" tabindex="-1">
+        <p class="load-message" id="loadMessage" role="status">Chargement des catégories…</p>
+        <noscript>Activez JavaScript pour composer un archétype.</noscript>
+        <section class="composer" id="composer" aria-label="Composer un archétype">
+          <div class="header-actions">
+            <button class="icon-button" id="randomizeBtn" type="button" aria-label="Mélanger les traits" title="Mélanger les traits" disabled><img src="img/dashicons_randomize.svg" alt="" width="32" height="32" /></button>
+            <button class="icon-button" id="resetBtn" type="button" aria-label="Effacer tous les traits" title="Effacer tous les traits" disabled><img src="img/boxicons_eraser.svg" alt="" width="27" height="27" /></button>
+          </div>
+          <p class="instruction">Cliquez sur une pastille pour inclure ou exclure un trait.</p>
+          <div class="selected-traits" id="selectedTraits" aria-label="Traits sélectionnés" hidden></div>
+          <p class="intro-text" id="introText">Nos identités sont composées. Archétype vous permet d’explorer les personnages issus de nos récits et nos fictions. Sélectionnez et combinez des traits pour former et reconnaître leurs identités.</p>
+          <section class="result-area" id="resultArea" aria-label="Correspondances" aria-busy="false" hidden>
+            <div class="result-line">
+              <span class="result-symbol" aria-hidden="true">=</span>
+              <button class="search-button" id="lmStudioBtn" type="button" disabled><img id="loadingIcon" class="loading-icon" src="img/Frame%201.svg" alt="" width="20" height="20" hidden /><span id="searchLabel">À la recherche de l’archétype ↵</span></button>
+              <span class="result-text" id="resultText" role="status" aria-live="polite" aria-atomic="true" tabindex="-1" hidden></span>
+            </div>
+            <div class="result-meta">
+              <button class="icon-button" id="refreshBtn" type="button" aria-label="Afficher le personnage suivant sans modifier les traits" title="Personnage suivant" disabled><img src="img/ic_outline-change-circle.svg" alt="" width="23" height="23" /></button>
+              <p id="lmStudioOutput" role="status" aria-live="polite" aria-atomic="true">En attente de correspondances.</p>
+            </div>
+          </section>
+        </section>
+        <section class="about-view" id="aboutView" aria-label="À propos d’Archétype" hidden>
+          <h2>OpenAI</h2>
+          <details class="api-settings" id="apiKeySettings">
+            <summary>Clé OpenAI · cette page uniquement</summary>
+            <form id="apiKeyForm" autocomplete="off">
+              <label for="apiKey">Votre clé API OpenAI</label>
+              <input id="apiKey" type="password" autocomplete="off" spellcheck="false" autocapitalize="none" aria-describedby="apiKeyHelp" required />
+              <div class="api-key-actions">
+                <button type="submit">Appliquer la clé</button>
+                <button id="clearApiKeyBtn" type="button" disabled>Effacer la clé</button>
+              </div>
+              <p id="apiKeyHelp">Clé gardée en mémoire, effacée au rechargement. Visible dans les outils du navigateur, même masquée. Les réponses sont stockées chez OpenAI.</p>
+              <p id="apiKeyStatus" role="status">Aucune clé en mémoire.</p>
+            </form>
+          </details>
+          <h2>Info</h2>
+          <div>
+            <p>Archétype est un outil d’exploration textuelle de l’identité des personnages fictionnels. Un personnage n'est pas défini par une représentation fixe, mais par un ensemble de propriétés constitutives dont la combinaison permet, à différents degrés, de maintenir son identité.</p>
+            <p>À la croisée du design, de la fiction et de la philosophie, Archétype propose une réflexion interactive sur l’identité, la représentation et l’existence des personnages fictionnels.</p>
+            <p>Décomposez, catégorisez et recombinez les propriétés visuelles et conceptuelles d’un personnage pour questionner les caractéristiques essentielles à sa reconnaissance et les limites de sa réinterprétation.</p>
+          </div>
+          <h2>Crédit</h2>
+          <div>
+            <p>Merci à Wei pour son expertise en programmation JavaScript, qui a permis de concrétiser ce projet.</p>
+            <p>Projet réalisé au BAC en design graphique à l’École de design de l’UQAM dans le cadre du cours Essai Final sous la tutelle de Samuel Charlebois.</p>
+          </div>
+          <h2>Références</h2>
+          <div class="references">
+            <p>Berto, F. (2011). Modal Meinongianism and fiction: The best of three worlds. Philosophical Studies : An International Journal for Philosophy in the Analytic Tradition, 152(3), 313–334. <a href="https://doi.org/10.1007/s11098-009-9479-2">https://doi.org/10.1007/s11098-009-9479-2</a></p>
+            <p>Eder, J., Jannidis, F., &amp; Schneider, R. (2010). Characters in Fictional Worlds: Understanding Imaginary Beings in Literature, Film, and Other Media. Walter de Gruyter.</p>
+            <p>Locher, M. A., &amp; Jucker, A. H. (2017). Pragmatics of Fiction. Walter de Gruyter GmbH &amp; Co KG.<br />Oatley, K. (2016). Fiction: Simulation of Social Worlds. Trends in Cognitive Sciences, 20(8), 618–628. <a href="https://doi.org/10.1016/j.tics.2016.06.002">https://doi.org/10.1016/j.tics.2016.06.002</a></p>
+            <p>(PDF) Fictional Entities Are Social Entities: How Public Narratives Make Fiction Real. (n.d.). In ResearchGate. <a href="https://doi.org/10.1007/978-3-031-82221-6_4">https://doi.org/10.1007/978-3-031-82221-6_4</a></p>
+            <p>Reicher, M. E. (2025). Meinongianism (1 online resource (unpaged).). Cambridge University Press. <a href="https://www.cambridge.org/core/product/BCF6A0C5F55A6E66A2BE152AC61E90A1">https://www.cambridge.org/core/product/BCF6A0C5F55A6E66A2BE152AC61E90A1</a></p>
+            <p>Schreibman, S., Siemens, R., &amp; Unsworth, J. (2008). A Companion to Digital Humanities. John Wiley &amp; Sons.</p>
+            <p>Strong, J. (2021). Character Adaptations: Recurrence and Return. Adaptation, 14(1), 109–135. <a href="https://doi.org/10.1093/adaptation/apaa028">https://doi.org/10.1093/adaptation/apaa028</a></p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>© VL 2026</footer>
+  </body>
+</html>
