@@ -208,7 +208,7 @@ function renderResult() {
   $('loadingIcon').hidden = !state.request;
   $('refreshBtn').disabled = state.titles.length < 2;
   $('lmStudioOutput').textContent = state.error || (state.request
-    ? 'Recherche de correspondances…'
+    ? 'En attente de correspondances.'
     : state.completed
       ? state.titles.length
         ? `${state.titles.length} résultat${state.titles.length > 1 ? 's' : ''} trouvé${state.titles.length > 1 ? 's' : ''}.`
